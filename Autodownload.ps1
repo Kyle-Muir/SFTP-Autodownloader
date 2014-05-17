@@ -1,5 +1,7 @@
 #
 # Autodownload script. Connects to the SFTP Server and grabs all new items that match the filters contained within dropbox.
+# Created by Kyle Muir (kyle(dot)matthew(dot)muir(at)gmail(dot)com)
+# https://github.com/Kyle-Muir
 #
 
 $ErrorActionPreference = "Stop"
