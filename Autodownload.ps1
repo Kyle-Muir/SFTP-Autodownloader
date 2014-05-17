@@ -46,7 +46,7 @@ function Process-RemoteFile($filePath, $fileName) {
                 $end = Get-Date
                 Add-Content -LiteralPath $list -Value "`n$fileName"
                 $timeSpan = $end - $start
-                $seconds = $timeSpan.Seconds
+                $seconds = $timeSpan.TotalSeconds
                 Log "Added $fileName to the autodownloads directory. Download took $seconds seconds."
             }
         }
