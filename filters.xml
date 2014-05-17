@@ -1,0 +1,4 @@
+<Filters>
+	<Filter>ProjectName.Release.*.zip</Filter>
+	<Filter>ProjectName.Release.*.msi</Filter>
+</Filters>
